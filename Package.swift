@@ -11,9 +11,9 @@ let package = Package(
             name: "XcodeLibrary",
             targets: ["XcodeLibrary"]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/sendbird/sendbird-calls-ios", from: "1.10.13")
-    ],
+//    dependencies: [
+//        .package(url: "https://github.com/sendbird/sendbird-calls-ios", from: "1.10.13")
+//    ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
